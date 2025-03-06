@@ -1,5 +1,6 @@
 from add_book import addBookCall as addbook
 from view_book import ViewBookCall as viewbook
+from search_book import searchBookCall as searchbook
 
 def main():
     # Programme first view book list
@@ -24,7 +25,7 @@ def main():
             elif choice == 2:
                 viewbook()
             elif choice == 3:
-                pass
+                searchbook()
             elif choice == 4:
                 pass
             elif choice == 5:

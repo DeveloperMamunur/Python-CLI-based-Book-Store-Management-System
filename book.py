@@ -1,3 +1,4 @@
+from add_book import addBookCall as addbook
 
 def main():
     while True:
@@ -15,7 +16,7 @@ def main():
             choice = int(input("Enter your choice number(1 - 5) and press enter: "))
             
             if choice == 1:
-                pass
+                addbook()
             elif choice == 2:
                 pass
             elif choice == 3:

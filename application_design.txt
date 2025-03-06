@@ -1,0 +1,42 @@
+### visual diagram
+-------------------
+https://lucid.app/lucidchart/950d4864-b83f-47c3-9e77-8b3215030d58/edit?invitationId=inv_cb52ba76-3088-416e-aa8f-410d4124b043
+
+
+
+
+3. Features & Functionality
+-------------------------------
+Feature	--------Description
+---------------------------------
+Add Book--------Adds a new book with ID, title, author, price, and quantity etc.
+View Books------Lists all available books.
+Search Book-----Searches books by id, title, author, price, and quantity etc.
+Remove Book-----Deletes a book by its ID.
+
+
+Book Store Management/
+----------------------------
+│── main.py              # Entry point, handles the main menu
+│── add_book.py          # Handles adding books
+│── view_books.py        # Handles viewing books
+│── search_book.py       # Handles searching books
+│── remove_book.py       # Handles removing books
+│── error_code.py     	  # Handles validation and errors
+│── book_data.py         # Handles file operations (load/save)
+│── books.json           # JSON file to store book data
+
+
+4. Application Flow
+-----------------------
+1. Start Program → Load existing book data from books.json
+2. Display Main Menu:
+	1: Add Book
+	2: View Books
+	3: Search Book
+	4: Remove Book
+	5: Exit
+3. User Selects an Option
+4. Perform Action (e.g., adding, viewing, searching, or removing books)
+5. Return to Menu or Exit
+5. Save Data to books.json Before Exiting

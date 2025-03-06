@@ -1,14 +1,18 @@
 from add_book import addBookCall as addbook
+from view_book import ViewBookCall as viewbook
 
 def main():
+    # Programme first view book list
+    viewbook()
+    # then loads main menu
     while True:
         print("--------------------------------------")
         print("---------- Select an option ----------")
         print("--------------------------------------")
         print("1. Add Book")
-        print("2. Search Book")
-        print("3. Remove Book")
-        print("4. View Book")
+        print("2. View Book")
+        print("3. Search Book")
+        print("4. Remove Book")
         print("5. Exit")
         print("--------------------------------------")
 
@@ -18,7 +22,7 @@ def main():
             if choice == 1:
                 addbook()
             elif choice == 2:
-                pass
+                viewbook()
             elif choice == 3:
                 pass
             elif choice == 4:

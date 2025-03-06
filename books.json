@@ -10,16 +10,6 @@
         "publish_year": 1991
     },
     {
-        "book_id": 2,
-        "title": "Management",
-        "author": "Abul Kalam",
-        "genre": "MBA",
-        "price": 250.0,
-        "stock_qty": 5,
-        "publisher": "Commerce Publication",
-        "publish_year": 2000
-    },
-    {
         "book_id": 3,
         "title": "PHP",
         "author": "Rasmus Lerdorf",

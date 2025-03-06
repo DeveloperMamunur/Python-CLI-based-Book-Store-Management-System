@@ -1,6 +1,7 @@
 from add_book import addBookCall as addbook
 from view_book import ViewBookCall as viewbook
 from search_book import searchBookCall as searchbook
+from remove_book import removeBookCall as removebook
 
 def main():
     # Programme first view book list
@@ -27,7 +28,7 @@ def main():
             elif choice == 3:
                 searchbook()
             elif choice == 4:
-                pass
+                removebook()
             elif choice == 5:
                 print("Exiting the program. Goodbye!")
                 break
